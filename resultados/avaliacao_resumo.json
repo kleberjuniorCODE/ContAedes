@@ -1,0 +1,113 @@
+{
+  "palhetas": 40,
+  "palhetas_positivas": 32,
+  "palhetas_negativas": 8,
+  "ovos_reais_total": 2561,
+  "ovos_estimados_total": 2539,
+  "eam_ovos": 0.95,
+  "epam_percentual": 1.6920026554487697,
+  "erro_maximo_ovos": 4,
+  "erro_percentual_maximo": 7.6923076923076925,
+  "palhetas_com_erro_ate_10pct": 100.0,
+  "negativas_corretas_pct": 100.0,
+  "ipo_real": 80.0,
+  "ipo_estimado": 80.0,
+  "ido_real": 80.03125,
+  "ido_estimado": 79.34375,
+  "erro_relativo_ido_pct": 0.8590394377196408,
+  "componentes_avaliados": 2532,
+  "f1_macro_rf": 0.9850799708342687,
+  "f1_macro_regras": 0.9798124080720313,
+  "relatorio_rf": {
+    "ovo": {
+      "precision": 0.9985,
+      "recall": 0.9945219123505976,
+      "f1-score": 0.9965069860279441,
+      "support": 2008.0
+    },
+    "aglomerado": {
+      "precision": 0.9574468085106383,
+      "recall": 0.9782608695652174,
+      "f1-score": 0.967741935483871,
+      "support": 138.0
+    },
+    "detrito": {
+      "precision": 0.9846547314578005,
+      "recall": 0.9974093264248705,
+      "f1-score": 0.990990990990991,
+      "support": 386.0
+    },
+    "accuracy": 0.9940758293838863,
+    "macro avg": {
+      "precision": 0.980200513322813,
+      "recall": 0.9900640361135619,
+      "f1-score": 0.9850799708342687,
+      "support": 2532.0
+    },
+    "weighted avg": {
+      "precision": 0.9941518111837201,
+      "recall": 0.9940758293838863,
+      "f1-score": 0.9940983165732261,
+      "support": 2532.0
+    }
+  },
+  "matriz_confusao": [
+    [
+      1997,
+      6,
+      5
+    ],
+    [
+      2,
+      135,
+      1
+    ],
+    [
+      1,
+      0,
+      385
+    ]
+  ],
+  "matriz_confusao_regras": [
+    [
+      1991,
+      7,
+      10
+    ],
+    [
+      0,
+      138,
+      0
+    ],
+    [
+      9,
+      1,
+      376
+    ]
+  ],
+  "rotulos_matriz": [
+    "ovo",
+    "aglomerado",
+    "detrito"
+  ],
+  "tempo_medio_s": 0.036805,
+  "tempo_maximo_s": 0.0431,
+  "causas_de_erro_ovos": {
+    "ovo isolado descartado como detrito": 5,
+    "detrito contado como ovo": 1,
+    "erro no nº estimado de um aglomerado": 46,
+    "aglomerado tratado como ovo isolado": 2,
+    "ovo isolado tratado como aglomerado": 6,
+    "aglomerado descartado como detrito": 2,
+    "ovo não segmentado": 0,
+    "detrito tratado como aglomerado": 0
+  },
+  "semente_inicial": 5000,
+  "teste_negativas": {
+    "negativas_testadas": 100,
+    "falsos_positivos": 3,
+    "taxa_falso_positivo_pct": 3.0,
+    "falsos_positivos_sinalizados_para_conferencia": 3,
+    "maior_contagem_falsa": 1
+  }
+}

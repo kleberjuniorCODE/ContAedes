@@ -1,0 +1,15 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Resultados gerados ao executar o protótipo
+resultados_contaedes/
+
+# Configurações de editores
+.vscode/
+.idea/
